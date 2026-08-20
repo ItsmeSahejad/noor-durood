@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /hi/
+
+Sitemap: https://noordurood.com/sitemap.xml
