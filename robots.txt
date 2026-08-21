@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /hi/
 
-Sitemap: https://noordurood.com/sitemap.xml
+Sitemap: https://itsmesahejad.github.io/noor-durood/sitemap.xml
