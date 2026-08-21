@@ -20,3 +20,24 @@
   .social-card{padding:1.5rem 1.25rem}
   .footer-social{order:3;width:100%;justify-content:center}
 }
+.social-mark {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  font-size: 0;
+}
+
+.social-card:first-child .social-mark::before {
+  content: "◎";
+  font-size: 27px;
+}
+
+.social-card:nth-child(2) .social-mark::before {
+  content: "◉";
+  font-size: 25px;
+}
