@@ -6,7 +6,7 @@
 .social-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:rgba(20,67,60,.16);margin-top:3rem;border:1px solid rgba(20,67,60,.16)}
 .social-card{display:flex;align-items:center;gap:1.25rem;background:#f8f5ed;padding:2rem 1.75rem;text-decoration:none;color:inherit;min-height:145px;transition:transform .25s ease,background .25s ease}
 .social-card:hover{transform:translateY(-3px);background:#f3eee2}
-.social-mark{width:42px;height:42px;border:1px solid #16483f;border-radius:50%;display:grid;place-items:center;color:#16483f;font-size:1.25rem;flex:0 0 auto}
+.social-mark{width:54px;height:54px;border:1px solid rgba(20,67,60,.28);border-radius:50%;display:grid;place-items:center;color:#16483f;flex:0 0 auto;background:#fbf9f3}.social-mark svg{width:31px;height:31px;display:block}.social-mark-instagram{color:#b26350}.social-mark-whatsapp{color:#16483f}
 .social-card>div{display:grid;gap:.25rem}
 .social-label{font-family:"DM Mono",monospace;text-transform:uppercase;letter-spacing:.12em;font-size:.68rem;color:#b26350}
 .social-card strong{font-family:"Playfair Display",serif;font-size:1.35rem;font-weight:500;color:#16483f}
@@ -19,25 +19,4 @@
   .social-grid{grid-template-columns:1fr}
   .social-card{padding:1.5rem 1.25rem}
   .footer-social{order:3;width:100%;justify-content:center}
-}
-.social-mark {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  font-size: 0;
-}
-
-.social-card:first-child .social-mark::before {
-  content: "◎";
-  font-size: 27px;
-}
-
-.social-card:nth-child(2) .social-mark::before {
-  content: "◉";
-  font-size: 25px;
 }
